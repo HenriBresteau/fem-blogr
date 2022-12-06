@@ -1,3 +1,6 @@
+@import "/fonts/overpass/stylesheet.css";
+@import "/fonts/ubuntu/stylesheet.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
