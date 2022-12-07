@@ -18,6 +18,8 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "linear-gradient(to bottom, hsl(13deg 100% 72% / 90%), hsl(353deg 100% 62% /90%)), url(/images/bg-pattern-intro-mobile.svg)",
+        "btn-gradient":
+          "linear-gradient(to right, hsl(13deg 100% 72% / 90%), hsl(353deg 100% 62% /90%))",
       },
     },
   },
