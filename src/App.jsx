@@ -1,13 +1,15 @@
 import Footer from "./Components/Footer/Footer";
+import Hero from "./Components/Navbar/Hero";
 import Nav from "./Components/Navbar/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div className=" min-w-md mx-auto ">
+      <div className=" min-h-[524px] bg-hero-pattern bg-no-repeat bg-center px-4 py-12 rounded-bl-[90px]  ">
         <Nav />
+        <Hero />
       </div>
-      <h1 className="text-3xl font-overpass underline">Hello world!</h1>
+      
       <Footer />
     </div>
   );

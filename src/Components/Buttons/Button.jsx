@@ -15,3 +15,11 @@ const Button = ({ label, full }) => {
 };
 
 export default Button;
+
+export const ButtonGosht = ({ label }) => {
+  return (
+    <button className="px-6 py-2 text-lg text-white font-ubuntu font-medium w-fit cursor-pointer border-2 border-white  rounded-full hover:text-primary hover:bg-white">
+      {label}
+    </button>
+  );
+};
